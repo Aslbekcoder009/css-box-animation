@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.box1{
+    width: 600px;
+    height: 600px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2{
+    width: 570px;
+    height: 570px;
+    background-color: rgb(36, 232, 79);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3{
+    width: 540px;
+    height: 540px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box4{
+    width: 510px;
+    height: 510px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box5{
+    width: 480px;
+    height: 480px;
+    background-color: chartreuse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box6{
+    width: 450px;
+    height: 450px;
+    background-color: mediumorchid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box7{
+    width: 420px;
+    height: 420px;
+    background-color: maroon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box8{
+    width: 390px;
+    height: 390px;
+    background-color: midnightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box9{
+    width: 360px;
+    height: 360px;
+    background-color: darkmagenta;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box10{
+    width: 330px;
+    height: 330px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/Без\ названия.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div{
+    animation: div 10s infinite linear;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+
+}
+@keyframes div {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+        border-radius: 50%;
+    }
+}
+
